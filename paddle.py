@@ -9,7 +9,7 @@ WIDTH_FACTOR = 1
 SPEED = 'fastest'
 UP = 90
 DOWN = 270
-FORWARD_DISTANCE = 20
+FORWARD_DISTANCE = 30
 
 # Paddle Class
 class Paddle(Turtle):
