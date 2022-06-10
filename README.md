@@ -20,5 +20,8 @@ python3 main.py
 ![Game Screen](images/game.png)
 
 ### GAME OVER when one player's score is more than 11(Max. Score).
+
+Here the Max. Score is 2(can be changed).
+
 ![GAME OVER](images/game_over.png)
 
