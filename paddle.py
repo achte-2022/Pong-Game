@@ -1,19 +1,18 @@
-#Importing Libraries
+# Importing Libraries
 from turtle import Turtle
 
-#Constants
-SHAPE = 'square'
-COLOR = 'white'
+# Constants
+SHAPE = "square"
+COLOR = "white"
 HEIGHT_FACTOR = 5
 WIDTH_FACTOR = 1
-SPEED = 'fastest'
+SPEED = "fastest"
 UP = 90
 DOWN = 270
 FORWARD_DISTANCE = 30
 
 # Paddle Class
 class Paddle(Turtle):
-
     def __init__(self, x_pos, y_pos):
         super().__init__()
         self.penup()
@@ -24,19 +23,18 @@ class Paddle(Turtle):
         self.goto(x_pos, y_pos)
         self.setheading(UP)
         return
-    
 
     def up(self):
-        if (self.heading() == UP):
+        if self.heading() == UP:
             self.forward(FORWARD_DISTANCE)
             return
         else:
             self.setheading(UP)
             self.forward(FORWARD_DISTANCE)
             return
-    
+
     def down(self):
-        if (self.heading() == DOWN):
+        if self.heading() == DOWN:
             self.forward(FORWARD_DISTANCE)
             return
         else:
