@@ -17,7 +17,7 @@ Y_LIMIT = (SCREEN_HEIGHT / 2) - 20
 MAX_OBJECT_DISTANCE = 50
 X_INIT = 0
 Y_INIT = 0
-MAX_SCORE = 2
+MAX_SCORE = 11
 ALIGN = "left"
 FONT = ("Arial", 12, "normal")
 
